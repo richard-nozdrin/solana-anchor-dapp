@@ -1,0 +1,14 @@
+[features]
+seeds = false
+[programs.devnet]
+solanadapp = "DdJRDf7gKxbstkedF299HK6nAxxLFzu4xNjsXE46LCS9"
+
+[registry]
+url = "https://anchor.projectserum.com"
+
+[provider]
+cluster = "devnet"
+wallet = "/Users/olivierwinkler/.config/solana/id.json"
+
+[scripts]
+test = "yarn run ts-mocha -p ./tsconfig.json -t 1000000 tests/**/*.ts"
